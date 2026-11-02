@@ -22,7 +22,7 @@ Implemented a real-time search filter on the Products page so users can filter b
 Form Functionality & Validation:
 Enquiry Form: Added client-side JavaScript validation (checks for name length, valid email format, and phone number digits). Implemented error handling messages that display dynamically. Added AJAX (Fetch API) submission to process data without reloading the page.
 Contact Form: Implemented the `mailto:` action to compile form data into an email for the user to send to the business owner.
-Deployment: The website has been deployed to [http://127.0.0.1:5500/index.html].
+Deployment: The website has been deployed to [https://zesty-sunshine-665e05.netlify.app/].
 Part 2 Feedback Implementation
 Replaced inline styles with an external `style.css` file for better maintainability.
 Improved website responsiveness using CSS Media Queries (added breakpoints for tablet and mobile devices).
