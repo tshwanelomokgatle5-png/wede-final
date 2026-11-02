@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get in touch with Fresh Bakes Bakery. Find our contact details, location, or send us a direct message.">
+    <title>Contact Us | Fresh Bakes Bakery</title>
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this matches your CSS file name -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    
+    <main class="container">
+        <h2>Get in Touch</h2>
+        <p>If you have a general question, feedback, or just want to say hello, please fill out the form below. This will open your email app to send us a message directly.</p>
+        
+        <!-- The mailto: action compiles the form data into an email -->
+        <!-- IMPORTANT: Change "your-email@example.com" to your actual email address! -->
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            
+            <label for="contactName">Your Name:</label>
+            <input type="text" id="contactName" name="Name" required placeholder="tshwanelomokgatle4">
+
+            <label for="contactEmail">Your Email:</label>
+            <input type="email" id="contactEmail" name="Email" required placeholder="tshwanelomokgatle4@icloud.com">
+
+            <label for="messageType">Type of Message:</label>
+            <select id="messageType" name="Message_Type">
+                <option value="General">General Feedback</option>
+                <option value="Complaint">Complaint</option>
+                <option value="Compliment">Compliment</option>
+            </select>
+
+            <label for="contactMessage">Your Message:</label>
+            <textarea id="contactMessage" name="Message" rows="5" required placeholder="Type your message here..."></textarea>
+
+            <button type="submit">Send Email</button>
+        </form>
+
+        <div style="margin-top: 30px;">
+            <h3>Our Details:</h3>
+            <p><strong>Address:</strong> 123 Baker Street, Local Town</p>
+            <p><strong>Phone:</strong> 012 345 6789</p>
+            <p><strong>Operating Hours:</strong> Mon-Sat: 07:00 - 17:00</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fresh Bakes Bakery. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

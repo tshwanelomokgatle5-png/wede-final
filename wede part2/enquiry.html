@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit an enquiry for custom cakes, catering, or general questions at Fresh Bakes Bakery.">
+    <title>Enquiry | Fresh Bakes Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Order & Custom Cake Enquiry</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main class="container">
+        <h2>Send Us an Enquiry</h2>
+        
+        <!-- Added ID to the form -->
+        <form id="enquiryForm" action="#" method="post">
+            
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Your full name">
+            <span id="nameError" style="color: red; display: none; font-size: 0.9em;">Please enter at least 3 characters.</span>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address">
+            <span id="emailError" style="color: red; display: none; font-size: 0.9em;">Please enter a valid email address.</span>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number (10 digits)">
+            <span id="phoneError" style="color: red; display: none; font-size: 0.9em;">Please enter a 10-digit number.</span>
+
+            <label for="type">Enquiry Type:</label>
+            <select id="type" name="type">
+                <option value="custom-cake">Custom Cake Order</option>
+                <option value="event-catering">Event Catering</option>
+                <option value="general">General Question</option>
+            </select>
+
+            <label for="message">Enquiry Details:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Describe what you would like to order or ask..."></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+            
+            <!-- Success Message for AJAX -->
+            <p id="formSuccess" style="color: green; display: none; font-weight: bold; margin-top: 15px;">Thank you! Your enquiry has been submitted successfully.</p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Fresh Bakes Bakery. All Rights Reserved.</p>
+    </footer>
+    
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
