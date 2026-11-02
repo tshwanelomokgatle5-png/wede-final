@@ -28,3 +28,9 @@ Replaced inline styles with an external `style.css` file for better maintainabil
 Improved website responsiveness using CSS Media Queries (added breakpoints for tablet and mobile devices).
 Changed fixed footer positioning to static to prevent it from overlapping content on smaller screens.
 Improved navigation layout using CSS Flexbox.
+
+## References
+*   Netlify. (2024). *Deploy your first site*. Available at: https://www.netlify.com/ 
+*   MDN Web Docs. (2024). *Client-side form validation*. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+*   MDN Web Docs. (2024). *Fetch API*. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+*   W3Schools. (2024). *HTML Forms*. Available at: https://www.w3schools.com/html/html_forms.asp
